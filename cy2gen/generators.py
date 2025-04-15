@@ -132,7 +132,7 @@ class CytoidLevelGenerator:
                 while True:
                     x_r = float(np.random.uniform(0.3, 0.92))
                     x_l = float(np.random.uniform(0.08, 0.7))
-                    if (x_r_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l > 0.15) and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
+                    if (x_r_prev is None and x_l_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l > 0.15) and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
                         break
 
                 tick_positions = [round(start_tick + i * (end_tick - start_tick) / 2) for i in range(2)]
@@ -214,7 +214,7 @@ class CytoidLevelGenerator:
                 while True:
                     x_r = float(np.random.uniform(0.3, 0.92))
                     x_l = float(np.random.uniform(0.08, 0.7))
-                    if (x_r_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
+                    if (x_r_prev is None and x_l_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
                         break
 
                 tick_positions = [round(start_tick + i * (end_tick - start_tick) / 2) for i in range(2)]
@@ -295,7 +295,7 @@ class CytoidLevelGenerator:
                 while True:
                     x_r = float(np.random.uniform(0.3, 0.92))
                     x_l = float(np.random.uniform(0.08, 0.7))
-                    if (x_r_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
+                    if (x_r_prev is None and x_l_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
                         break
 
                 tick_positions = [round(start_tick + i * (end_tick - start_tick) / 4) for i in range(4)]
@@ -352,7 +352,7 @@ class CytoidLevelGenerator:
                 while True:
                     x_r = float(np.random.uniform(0.3, 0.92))
                     x_l = float(np.random.uniform(0.08, 0.7))
-                    if (x_r_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
+                    if (x_r_prev is None and x_l_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
                         break
 
                 tick_positions = [round(start_tick + i * (end_tick - start_tick) / 4) for i in range(4)]
@@ -409,7 +409,7 @@ class CytoidLevelGenerator:
                 while True:
                     x_r = float(np.random.uniform(0.3, 0.92))
                     x_l = float(np.random.uniform(0.08, 0.7))
-                    if (x_r_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
+                    if (x_r_prev is None and x_l_prev is None and x_r - x_l > 0.3) or (abs(x_r - x_l) > 0.15 and abs(x_r - x_r_prev) > 0.08 and abs(x_l - x_l_prev) > 0.08 and x_r > x_l):
                         break
 
                 tick_positions = [round(start_tick + i * (end_tick - start_tick) / 4) for i in range(4)]
