@@ -1,5 +1,5 @@
 # Cy2Gen
-Cy2Gen is a open source project for generating Cytoid levels directly from audio. This project focus on generating specific note patterns that occur commonly in Cytus II and Cytoid, so that players(especially try-hards) will find it convenient and efficient to practice with. This project also provides a starting point for chart creators to rapidly generate playable charts while retaining the freedom for further manual refinement. Currently, it supports 5 note patterns:
+Cy2Gen is an open source project for generating Cytoid levels directly from audio. This project focus on generating specific note patterns that occur commonly in Cytus II and Cytoid, so that players(especially try-hards) will find it convenient and efficient to practice with. This project also provides a starting point for chart creators to rapidly generate playable charts while retaining the freedom for further manual refinement. Currently, it supports 5 note patterns:
 tap, drill, stream, bullet, jack(more to be added).
 
 Generation examples:<p>
