@@ -3,10 +3,10 @@ Cy2Gen is a open source project for generating Cytoid levels directly from audio
 tap, drill, stream, bullet, jack(more to be added).
 
 Generation examples:<p>
-<img src="assets/screenshot1.png" width="400"/>
-<img src="assets/screenshot2.png" width="400"/><br>
-<img src="assets/screenshot3.png" width="400"/>
-<img src="assets/screenshot4.png" width="400"/>
+<img src="assets/screenshot1.PNG" width="400"/>
+<img src="assets/screenshot2.PNG" width="400"/><br>
+<img src="assets/screenshot3.PNG" width="400"/>
+<img src="assets/screenshot4.PNG" width="400"/>
 
 ## How to Use
 1. Set up the environment
