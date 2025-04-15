@@ -1,6 +1,0 @@
-numpy>=2.2.4
-madmom>=0.16.1
-pydub>=0.25.1
-librosa>=0.11.0
-ipywidgets>=8.1.6
-ipython>=8.35.0
